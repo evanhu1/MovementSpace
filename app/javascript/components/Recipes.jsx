@@ -70,6 +70,20 @@ class Recipes extends React.Component {
             </section>
             <div className="py-2">
               <main className="container">
+                <div className="text-right mb-3">
+                  <div className="rowofbuttons">
+                  <div className="createbutton">
+                  <Link to="/create" className="btn custom-button">
+                    Create New Movement
+                  </Link>
+                  </div>
+                  <div className= "feedbutton">
+                    <Link to="/feed" className="btn custom-button">
+                      View Your Feed
+                    </Link>
+                  </div>
+                  </div>
+                </div>
                 <div className="row">
                   {recipes.length > 0 ? allRecipes : noRecipe}
                 </div>
