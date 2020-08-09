@@ -50,7 +50,7 @@ Recipe.create(
 )
 Recipe.create(
       name: "Black Lives Matter",
-      ingredients: 'https://blacklivesmatter.com/, https://www.change.org/t/black-lives-matter-en-us, 1 tsp cornflour,100g parmesan, grated nutmeg, 250g fresh fettuccine or tagliatelle, snipped chives or chopped parsley to serve (optional)',
+      ingredients: 'https://blacklivesmatter.com/, https://www.change.org/t/black-lives-matter-en-us',
       instruction: 'Four years ago, what is now known as the Black Lives Matter Global Network began to organize. It started out as a chapter-based, member-led organization whose mission was to build local power and to intervene when violence was inflicted on Black communities by the state and vigilantes. In the years since, we’ve committed to struggling together and to imagining and creating a world free of anti-Blackness, where every Black person has the social, economic, and political power to thrive.',
       image:"https://img2.chinadaily.com.cn/images/202006/16/5ee81a1ca3108348fcd5b61b.jpeg"
 )
