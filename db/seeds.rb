@@ -26,7 +26,7 @@ Recipe.create(
 Recipe.create(
       name: "Voting Rights",
       ingredients: 'https://www.aclu.org/know-your-rights/voting-rights/, https://www.change.org/t/voting-en-us',
-      instruction: 'In a medium saucepan, stir the clotted cream, butter, and cornflour over a low-ish heat and bring to a low simmer. Turn off the heat and keep warm.',
+      instruction: 'Voting is the cornerstone of our democracy and the fundamental right upon which all our civil liberties rest. The ACLU works to protect and expand Americansʼ freedom to vote. In addition to this litigation, we are working with our affiliates to advocate for policies that make it easier for Americans to vote, such as the expansion of same-day and online voter registration. ',
       image: "https://www.aclu-ms.org/sites/default/files/styles/featured_image_mobile_480x319/public/field_image/issue-voting-rights.jpg?itok=jFyko93x"
 )
 Recipe.create(

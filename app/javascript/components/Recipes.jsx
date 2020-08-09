@@ -80,16 +80,25 @@ class Recipes extends React.Component {
               <div className="container py-5">
                 <h1 className="display-4">Fight for an existing social justice movement</h1>
                 <p className="lead text-muted">
-                  For social movements to gain traction in modern society, continued support for each movement is very important. By joining the group, donating to the movement's foundation, and actively encouraging others, we can make this world a better place.
+                  For social movements to gain traction in modern society, continued support for each movement is very important. By joining the group, donating to the movement's foundation, and actively encouraging others to fight for social justice, we can make this world a better place.
                 </p>
               </div>
             </section>
             <div className="py-5">
               <main className="container">
                 <div className="text-right mb-3">
+                  <div className="rowofbuttons">
+                  <div className="createbutton">
                   <Link to="/create" className="btn custom-button">
                     Create New Movement
                   </Link>
+                  </div>
+                  <div className= "feedbutton">
+                    <Link to="/feed" className="btn custom-button">
+                      View Your Feed
+                    </Link>
+                  </div>
+                  </div>
                 </div>
                 <div className="row">
                   {recipes.length > 0 ? allRecipes : noRecipe}
