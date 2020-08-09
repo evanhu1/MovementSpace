@@ -9,7 +9,6 @@ class Recipe extends React.Component {
     this.addHtmlEntities = this.addHtmlEntities.bind(this);
   }
   componentDidMount() {
-    print("success");
     const {
       match: {
         params: { id }
@@ -83,7 +82,7 @@ class Recipe extends React.Component {
               </button>
             </div>
           </div>
-          <Link to="/recipes" className="btn btn-link">
+          <Link to="/movements" className="btn btn-link">
             Back to recipes
           </Link>
         </div>

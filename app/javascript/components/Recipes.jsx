@@ -43,7 +43,7 @@ class Recipes extends React.Component {
             </div> */}
             <div id="cardwrapper">
             <Card style={{ width: '18rem' }}>
-            <Link to={`/recipe/${recipe.id}`} >
+            <Link to={`/movement/${recipe.id}`} >
               <Card.Img variant="top" src={recipe.image} />
               
                 <Card.ImgOverlay>
@@ -89,8 +89,8 @@ class Recipes extends React.Component {
             <div className="py-5">
               <main className="container">
                 <div className="text-right mb-3">
-                  <Link to="/recipe" className="btn custom-button">
-                    Create New Recipe
+                  <Link to="/create" className="btn custom-button">
+                    Create New Movement
                   </Link>
                 </div>
                 <div className="row">
