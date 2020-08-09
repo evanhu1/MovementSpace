@@ -69,7 +69,7 @@ class Recipes extends React.Component {
         const noRecipe = (
           <div className="vw-100 vh-50 d-flex align-items-center justify-content-center">
             <h4>
-              No recipes yet. Why not <Link to="/new_recipe">create one</Link>
+              No movements yet. Why not <Link to="/new_recipe">create one</Link>
             </h4>
           </div>
         );
