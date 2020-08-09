@@ -1,5 +1,5 @@
 p {
-    padding: 1.5rem 4rem 1.5rem 3rem;
+    padding: 1.5rem 5rem 1.5rem 5rem;
     text-align: center;
     margin-bottom: 0px;
 }
@@ -21,11 +21,8 @@ hr {
 }
   
 @keyframes mouse {
-    0% {
-        background-color: white;
-    }
     100% {
-        background-color: lightgray;
+        background-color: white;
     }
 }
 

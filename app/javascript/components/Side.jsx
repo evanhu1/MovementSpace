@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "react-sidebar";
 import "./side.css"
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 const mql = window.matchMedia(`(min-width: 800px)`);
  
 class Side extends React.Component {
@@ -21,7 +21,7 @@ class Side extends React.Component {
   }
  
   componentWillUnmount() {
-    this.state.mql.removeListener(this.mediaQueryChanged);
+    // this.state.mql.removeListener(this.mediaQueryChanged);
   }
  
   onSetSidebarOpen(open) {
@@ -37,22 +37,23 @@ class Side extends React.Component {
       <Sidebar
         sidebar={
           <div>
+          <hr/>
+          <div ><p className="lead"></p></div>
           
           <hr/>
-          <Link to="/recipe" style={{ textDecoration: 'none', color: "black" }}>
+          <Link to="/feed" style={{ textDecoration: 'none', color: "black" }}>
           <div id='anim'><p className="lead">Feed</p></div>
           </Link>
 
           <hr/>
-          <Link to="/recipe" style={{ textDecoration: 'none', color: "black" }}>
+          <Link to="/movements" style={{ textDecoration: 'none', color: "black" }}>
           <div id='anim'><p className="lead">Movements</p></div>
           </Link>
 
           <hr/>
-          <Link to="/recipe" style={{ textDecoration: 'none', color: "black" }}>
+          <Link to="/create" style={{ textDecoration: 'none', color: "black" }}>
           <div id='anim'><p className="lead">Create</p></div>
           </Link>
-
           <hr/>
           </div>
         }
@@ -62,15 +63,8 @@ class Side extends React.Component {
         onSetOpen={this.onSetSidebarOpen}
         sidebarId="bar"
         styles= {{sidebar: {
-          zIndex: 10,
-          position: "absolute",
-          top: 0,
-          bottom: 0,
-          transition: "transform .3s ease-out",
-          WebkitTransition: "-webkit-transform .3s ease-out",
-          willChange: "transform",
-          overflowY: "auto",
           position: "fixed",
+          background: "linear-gradient(0deg, rgb(230, 255, 255), white, rgb(253, 242, 255))",
         }}}
       >
       </Sidebar>

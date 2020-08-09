@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Side from "./Side.jsx";
 
 class Recipe extends React.Component {
   constructor(props) {
@@ -49,6 +50,7 @@ class Recipe extends React.Component {
 
     return (
       <div className="">
+        <div><Side/></div>
         <div className="hero position-relative d-flex align-items-center justify-content-center">
           <img
             src={recipe.image}
