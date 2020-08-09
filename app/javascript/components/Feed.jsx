@@ -15,8 +15,8 @@ class Create extends React.Component {
             News Feed
           </h1>
         </div>
-        <div className="container py-5">
-          <div className="rowfeed">
+        <div className="container py-5 ">
+          <div className="rowfeed ">
             <div className="col-sm-12 col-lg-3">
               <ul className="list-group">
                 <h5 className="mb-2"></h5>
@@ -25,7 +25,7 @@ class Create extends React.Component {
             </div>
             <div className="col-sm-12 col-lg-7">
             <div className= "feedelements">
-            <div className="carousel">
+            <div className="carousel ">
             <Carousel>
                 <Carousel.Item>
                     <a href= "https://www.cnn.com/2020/08/08/us/white-man-erases-black-lives-matter-chalk-trnd/index.html">
