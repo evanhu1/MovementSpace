@@ -43,7 +43,7 @@ class Recipes extends React.Component {
             </div> */}
             <div id="cardwrapper">
             <Card style={{ width: '18rem' }, {height: '10rem'},  {margin: '0.5rem'}}>
-            <Link to={`/recipe/${recipe.id}`} >
+            <Link to={`/movement/${recipe.id}`} >
               <Card.Img variant="top" src={recipe.image} />
               
                 <Card.ImgOverlay>
