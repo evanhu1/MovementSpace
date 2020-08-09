@@ -17,7 +17,7 @@ class Home extends React.Component {
             <hr className="my-4" />
             <div className="d-flex align-items-center justify-content-center">
             <Link
-                to="/recipes"
+                to="/movements"
                 className="btn btn-lg custom-button align-items-center"
                 role="button"
             >
