@@ -15,6 +15,10 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
+    "react-sidebar": "^3.0.2",
+    "react-social-login-buttons": "^3.1.0",
+    "reactstrap": "^8.5.1",
+    "styled-components": "^4.3.2",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",

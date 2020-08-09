@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+/*import SideBar from "../components/Sidebar";
+/*import NavigationBar from "../components/Navigation";*/
 
 class Recipes extends React.Component {
     constructor(props) {
@@ -8,7 +10,6 @@ class Recipes extends React.Component {
         recipes: []
       };
     }
-  
     componentDidMount() {
         const url = "/api/v1/recipes/index";
         fetch(url)
@@ -27,7 +28,7 @@ class Recipes extends React.Component {
           <div key={index} className="col-md-6 col-lg-4">
             <div className="card mb-4">
               <img
-                src={recipe.image}
+                src={"https://blacklivesmatter.com/wp-content/uploads/2020/06/blmgn-profile-picture-0520-stop-killing-us-1080x1080-02.jpg"}
                 className="card-img-top"
                 alt={`${recipe.name} image`}
               />
@@ -80,3 +81,5 @@ class Recipes extends React.Component {
       }
   }
   export default Recipes;
+  
+
