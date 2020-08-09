@@ -42,17 +42,23 @@ class Recipes extends React.Component {
               </div>
             </div> */}
             <Card style={{ width: '18rem' }}>
+            <Link to={`/recipe/${recipe.id}`} >
               <Card.Img variant="top" src={recipe.image} />
-              <Card.Body>
-                <Card.Title>{recipe.name}</Card.Title>
-                <Card.Text>
+              
+                <Card.ImgOverlay>
+                  <div className = "overlaytextbox">
+                <Card.Title className = "overlaytext">{recipe.name}</Card.Title>
+                </div>
+                {/* <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
-                </Card.Text>
-                <Link to={`/recipe/${recipe.id}`} >
-                <Button variant="primary">Go somewhere</Button>
-                </Link>
-              </Card.Body>
+                </Card.Text> */}
+                </Card.ImgOverlay>
+                
+                
+                
+              
+              </Link>
             </Card>
           </div>
           

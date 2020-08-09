@@ -34,3 +34,11 @@
     width: 100%;
     opacity: 0.4;
   }
+  .overlaytextbox{
+    text-align: center;
+    padding: 90px 0;
+  }
+  .overlaytext{
+    color:white;
+    font-size: 90vw;
+  }
