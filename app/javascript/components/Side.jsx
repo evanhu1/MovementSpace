@@ -41,18 +41,20 @@ class Side extends React.Component {
           <div ><p className="lead"></p></div>
           
           <hr/>
-          <Link to="/feed" style={{ textDecoration: 'none', color: "black" }}>
-          <div id='anim'><p className="lead">Feed</p></div>
-          </Link>
-
-          <hr/>
           <Link to="/movements" style={{ textDecoration: 'none', color: "black" }}>
           <div id='anim'><p className="lead">Movements</p></div>
           </Link>
+          
 
           <hr/>
           <Link to="/create" style={{ textDecoration: 'none', color: "black" }}>
           <div id='anim'><p className="lead">Create</p></div>
+          </Link>
+
+          <hr/>
+          
+          <Link to="/feed" style={{ textDecoration: 'none', color: "black" }}>
+          <div id='anim'><p className="lead">Feed</p></div>
           </Link>
           <hr/>
           </div>
@@ -62,6 +64,7 @@ class Side extends React.Component {
         docked={this.state.sidebarDocked}
         onSetOpen={this.onSetSidebarOpen}
         sidebarId="bar"
+        transitions="false"
         styles= {{sidebar: {
           position: "fixed",
           background: "linear-gradient(0deg, rgb(230, 255, 255), white, rgb(253, 242, 255))",

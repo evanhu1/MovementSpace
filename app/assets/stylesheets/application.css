@@ -75,3 +75,35 @@
   .feedelements{
     padding-left: -10rem;
   }
+
+  p {
+    padding: 1.5rem 5rem 1.5rem 5rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.f {
+    padding-top:2rem;
+}
+hr {
+    margin: 0px 0px 0px 0px;
+}
+
+/* div:hover {
+    background-color: lightgray;
+} */
+
+#anim:hover {
+    animation-name: mouse;
+    animation-duration: 0.5s;
+    animation-fill-mode:forwards;
+}
+  
+@keyframes mouse {
+    100% {
+        background-color: white;
+    }
+}
+
+#bar {
+    position: fixed;
+}

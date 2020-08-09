@@ -1,10 +1,12 @@
 import React from "react";
 import Form from 'react-bootstrap/Form';
 import { Link } from "react-router-dom";
+import Side from "./Side.jsx";
 class Create extends React.Component {
     render() {
         return (
         <div className="">
+          <Side/>
         <div className="hero position-relative d-flex align-items-center justify-content-center">
           <img
             src="https://duckofminerva.com/wp-content/uploads/2018/03/main_900-676x451.jpg"

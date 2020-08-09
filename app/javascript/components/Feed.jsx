@@ -1,10 +1,12 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import { Link } from "react-router-dom";
+import Side from "./Side.jsx";
 class Create extends React.Component {
     render() {
         return (
         <div className="">
+          <Side/>
         <div className="hero position-relative d-flex align-items-center justify-content-center">
           <img
             src="https://news.northeastern.edu/wp-content/uploads/2015/01/iStock_000053069786_Full_small-800x0-c-default.jpg"
@@ -15,9 +17,9 @@ class Create extends React.Component {
             News Feed
           </h1>
         </div>
-        <div className="container py-5 ">
+        <div className="container py-2 d-flex align-items-center justify-content-center">
           <div className="rowfeed ">
-            <div className="col-sm-12 col-lg-3">
+            <div className="col-sm-12 col-lg-3 ">
               <ul className="list-group">
                 <h5 className="mb-2"></h5>
                 
@@ -67,11 +69,14 @@ class Create extends React.Component {
             </div>
             </div>
             </div>
+            
           </div>
+        </div>
+        <div className="container py-2 ">
           <Link to="/movements" className="btn btn-link">
             Back to Movements
           </Link>
-        </div>
+          </div>
       </div>
 
      )

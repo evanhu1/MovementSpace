@@ -1,8 +1,8 @@
 
 Recipe.create(
       name: "View More",     
-      ingredients: '100g parmesan', 
-      instruction: 'We envision a world where our private and public leaders prioritize the protection of our planet; where solutions to remedy climate change are equitable, lift up those that are most impacted, and are rooted in racial and economic justice; and where facts win out over fiction and there is universal agreement about the impacts of climate change on the earth and all of its inhabitants.',
+      ingredients: 'COMING SOON', 
+      instruction: 'COMING SOON',
       image:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASoAAACpCAMAAACrt4DfAAAAD1BMVEWAgIB7e3t3d3dwcHB0dHRpdg8YAAABWklEQVR4nO3QAQEAIAzAoF/tn9kKBBgRmHtC3uyEbFWqKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiO29DzgfZUgTUfdjmwQAAAABJRU5ErkJggg=="
 )
 Recipe.create(
