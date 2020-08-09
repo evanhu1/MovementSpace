@@ -9,7 +9,6 @@ class Recipe extends React.Component {
     this.addHtmlEntities = this.addHtmlEntities.bind(this);
   }
   componentDidMount() {
-    print("success");
     const {
       match: {
         params: { id }
