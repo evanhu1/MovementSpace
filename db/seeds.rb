@@ -3,7 +3,7 @@ Recipe.create(
       name: "View More",     
       ingredients: '227g tub clotted cream, 25g butter, 1 tsp cornflour,100g parmesan, grated nutmeg, 250g fresh fettuccine or tagliatelle, snipped chives or chopped parsley to serve (optional)',
       instruction: 'In a medium saucepan, stir the clotted cream, butter, and cornflour over a low-ish heat and bring to a low simmer. Turn off the heat and keep warm.',
-      image:"https://wordpress-blog-assets-production.s3.amazonaws.com/e/wp-content/uploads/2016/01/kelly-green-color-paint-code-swatch-chart-rgb-html-hex.png"
+      image:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASoAAACpCAMAAACrt4DfAAAAD1BMVEWAgIB7e3t3d3dwcHB0dHRpdg8YAAABWklEQVR4nO3QAQEAIAzAoF/tn9kKBBgRmHtC3uyEbFWqKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiVbGqWFWsKlYVq4pVxapiO29DzgfZUgTUfdjmwQAAAABJRU5ErkJggg=="
 )
 Recipe.create(
       name: "Environmental Activism",     
@@ -40,13 +40,6 @@ Recipe.create(
       ingredients: '227g tub clotted cream, 25g butter, 1 tsp cornflour,100g parmesan, grated nutmeg, 250g fresh fettuccine or tagliatelle, snipped chives or chopped parsley to serve (optional)',
       instruction: 'In a medium saucepan, stir the clotted cream, butter, and cornflour over a low-ish heat and bring to a low simmer. Turn off the heat and keep warm.',
       image: "https://assets.change.org/photos/9/ub/bp/bGubBpmLsnPwHqW-1600x900-noPad.jpg?1557947075"
-)
-Recipe.create(
-      name: "Green New Deal",
-      ingredients: '227g tub clotted cream, 25g butter, 1 tsp cornflour,100g parmesan, grated nutmeg, 250g fresh fettuccine or tagliatelle, snipped chives or chopped parsley to serve (optional)',
-      instruction: 'In a medium saucepan, stir the clotted cream, butter, and cornflour over a low-ish heat and bring to a low simmer. Turn off the heat and keep warm.',
-      image: "https://static01.nyt.com/images/2019/02/20/climate/20CLI-GREENQANDA2/merlin_150320148_72cd2424-ed91-4f7e-bcf5-94b81ba4b650-superJumbo.jpg"
-
 )
 Recipe.create(
       name: "Me Too",
