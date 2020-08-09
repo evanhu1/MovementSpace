@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Side from "./Side.jsx";
 
 class Recipes extends React.Component {
     constructor(props) {
@@ -8,7 +9,7 @@ class Recipes extends React.Component {
         recipes: []
       };
     }
-  
+    
     componentDidMount() {
         const url = "/api/v1/recipes/index";
         fetch(url)
@@ -50,8 +51,9 @@ class Recipes extends React.Component {
         );
     
         return (
+          <div ><div><Side/></div>
           <>
-            <section className="jumbotron jumbotron-fluid text-center">
+            <section className=" text-center">
               <div className="container py-5">
                 <h1 className="display-4">Recipes for every occasion</h1>
                 <p className="lead text-muted">
@@ -77,6 +79,7 @@ class Recipes extends React.Component {
               </main>
             </div>
           </>
+          </div>
         );
       }
   }
