@@ -42,7 +42,7 @@ class Recipes extends React.Component {
               </div>
             </div> */}
             <div id="cardwrapper">
-            <Card style={{ width: '18rem' }, {height: '10rem'},  {margin: '0.5rem'}}>
+            <Card style={{ width: '18rem' }, {height: '10rem'},  {margin: '0.4rem'}}>
             <Link to={`/recipe/${recipe.id}`} >
               <Card.Img variant="top" src={recipe.image} />
               
