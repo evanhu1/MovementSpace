@@ -19,7 +19,7 @@ class Create extends React.Component {
           <div className="row">
             <div className="col-sm-12 col-lg-3">
               <ul className="list-group">
-                <h5 className="mb-2">Guidelines</h5>
+                <h5 className="mb-2"></h5>
                 
               </ul>
             </div>

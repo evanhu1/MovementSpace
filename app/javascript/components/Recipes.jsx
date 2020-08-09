@@ -42,8 +42,8 @@ class Recipes extends React.Component {
               </div>
             </div> */}
             <div id="cardwrapper">
-            <Card style={{ width: '18rem' }, {height: '10rem'},  {margin: '0.5rem'}}>
-            <Link to={`/movement/${recipe.id}`} >
+            <Card style={{ width: '18rem' }, {height: '10rem'},  {margin: '0.4rem'}}>
+            <Link to={`/recipe/${recipe.id}`} >
               <Card.Img variant="top" src={recipe.image} />
               
                 <Card.ImgOverlay>
@@ -69,7 +69,7 @@ class Recipes extends React.Component {
         const noRecipe = (
           <div className="vw-100 vh-50 d-flex align-items-center justify-content-center">
             <h4>
-              No recipes yet. Why not <Link to="/new_recipe">create one</Link>
+              No movements yet. Why not <Link to="/new_recipe">create one</Link>
             </h4>
           </div>
         );
