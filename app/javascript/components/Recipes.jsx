@@ -41,6 +41,7 @@ class Recipes extends React.Component {
                 
               </div>
             </div> */}
+            <div id="cardwrapper">
             <Card style={{ width: '18rem' }}>
             <Link to={`/recipe/${recipe.id}`} >
               <Card.Img variant="top" src={recipe.image} />
@@ -60,6 +61,7 @@ class Recipes extends React.Component {
               
               </Link>
             </Card>
+            </div>
           </div>
           
           
